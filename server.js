@@ -13,6 +13,6 @@ app.get('/v1/service', (req, res) => {
     res.json({msg: 'This is CORS-enabled for all origins!'});
 })
 
-app.listen(PORT, () => {
+app.listen(PORT, () => { 
     console.log(`Server is running. ${PORT}`)
 })
