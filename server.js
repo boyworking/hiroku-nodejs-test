@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/v1/service', (req, res) => {
-    res.json({msg: 'This is CORS-enabled for all origins!'});
+    res.json([{"id":"mi","url":"https://cdn2.thecatapi.com/images/mi.jpg","width":500,"height":332}]);
 })
 
 app.listen(PORT, () => { 
